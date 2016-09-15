@@ -1,3 +1,7 @@
+#' @importFrom magrittr %>%
+#'
+NULL
+
 # day of the year
 #
 doy <- function(date) {

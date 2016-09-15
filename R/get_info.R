@@ -46,7 +46,6 @@ rapid_sf <- function(xml) {
 #' rapid_date(x)
 #'
 #' @export
-#' @importFrom magrittr %>%
 #'
 rapid_date <- function(xml) {
   z <- xml %>%
@@ -77,7 +76,6 @@ rapid_date <- function(xml) {
 #' rapid_hour(x)
 #'
 #' @export
-#' @importFrom magrittr %>%
 #'
 rapid_hour <- function(xml) {
   z <- xml %>%
@@ -112,7 +110,7 @@ rapid_hour <- function(xml) {
 #' rapid_epsg(x)
 #'
 #' @export
-#' @importFrom magrittr %>%
+#'
 rapid_epsg <- function(xml) {
   z <- xml %>%
     xml2::xml_find_all("///re:epsgCode") %>%
@@ -141,7 +139,6 @@ rapid_epsg <- function(xml) {
 #' rapid_latlon(x)
 #'
 #' @export
-#' @importFrom magrittr %>%
 #'
 rapid_latlon <- function(xml) {
   xml %>%
