@@ -1,2 +1,2 @@
 # rapidr
-A R package for RapidEye Images (experimental)
+A R package for RapidEye Images (experimental).
